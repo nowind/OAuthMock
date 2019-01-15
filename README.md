@@ -24,5 +24,5 @@ WeiXinAuth:
   * test 为登陆回调给的access token
   * mock 表示用类内的函数调用返回
   * hook 表示使用指定的值返回
-  *  * 替代所有
+  * 星号 替代所有
   * 其他未列出的直接pass
