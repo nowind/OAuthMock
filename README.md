@@ -25,6 +25,7 @@ WeiXinAuth:
   * mock 表示用类内的函数调用返回
   * hook 表示使用指定的值返回
   * 星号 替代所有
+  * 方法名是路径末尾.之前的名字 例如：/where/path.json 就是 path
   * 其他未列出的直接pass
 
 具体使用方法见 [wiki](../../wiki)
