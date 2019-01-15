@@ -1,0 +1,21 @@
+QQAuth:
+  test:
+    mock: '*'
+  testfail:
+    hook: '*'
+    '*' : '{}'
+RenRenAuth:
+  test:
+    mock: '*'
+WeiBoAuth:
+  test:
+    mock: '*'
+WeiXinAuth:
+  test:
+    mock: '*'
+  testfail:
+    hook: '*'
+  xdtest:
+    hook: 'userinfo'
+    userinfo: '{"openid":"osiQlt455778bbLvFqrReBNPHq1","nickname":"朋友","sex":1,"language":"zh_CN","city":"","province":"","country":"CN","headimgurl":"http:\/\/wx.qlogo.cn\/111","privilege":[],"unionid":"oP4xHuIYS-8mmcr890ykooQLY8sM1"}'
+    mock: '*'
